@@ -19,7 +19,7 @@
         /// 向外界提供全局的访问点
         /// </summary>
         /// <returns></returns>
-        public Singleton GetSingleton()
+        public static Singleton GetSingleton()
         {
             lock (_locker)
             {

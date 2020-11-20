@@ -1,4 +1,5 @@
 ﻿using System;
+using SingletonPattern.Sample;
 
 namespace SingletonPattern
 {
@@ -6,7 +7,8 @@ namespace SingletonPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var singleton = Singleton.GetSingleton();
+            Console.ReadKey();
         }
     }
 }
