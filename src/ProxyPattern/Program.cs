@@ -1,4 +1,5 @@
 ﻿using System;
+using ProxyPattern.BaseSample;
 
 namespace ProxyPattern
 {
@@ -7,6 +8,9 @@ namespace ProxyPattern
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            Proxy proxy = new Proxy(new RealSubject());
+            proxy.Request();
         }
     }
 }

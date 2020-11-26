@@ -31,8 +31,18 @@ namespace ProxyPattern.BaseSample
     /// <summary>
     /// 代理主题
     /// </summary>
-    public class Proxy : RealSubject
+    public class Proxy : ISubject
     {
+        ISubject realSubject;
 
+        public Proxy(ISubject subject)
+        {
+            realSubject = subject;
+        }
+
+        public void Request()
+        {
+            Console.WriteLine("Request");
+        }
     }
 }
