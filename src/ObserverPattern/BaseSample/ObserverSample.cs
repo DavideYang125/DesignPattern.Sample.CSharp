@@ -59,11 +59,17 @@ namespace ObserverPattern.BaseSample
         }
     }
 
+    /// <summary>
+    /// 抽象观察者
+    /// </summary>
     public abstract class Observer
     {
         public abstract void Update(string msg);
     }
 
+    /// <summary>
+    /// 具体观察者
+    /// </summary>
     public class ConcreteObserver : Observer
     {
         public ConcreteObserver(string role)
