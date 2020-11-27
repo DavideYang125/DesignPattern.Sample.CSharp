@@ -1,9 +1,15 @@
-﻿using System;
+﻿/**
+ 中介者模式应用于消息通知
+ * **/
+
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MediatorPattern.MsgNotify
 {
+
     public interface IPerson
     {
         void Send(string message);

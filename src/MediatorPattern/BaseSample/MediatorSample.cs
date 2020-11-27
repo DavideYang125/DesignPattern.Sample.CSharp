@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+    Mediator: 抽象中介者
+    ConcreteMediator: 具体中介者
+    Colleague: 抽象同事类
+    ConcreteColleague: 具体同事类
+ * **/
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
