@@ -39,6 +39,19 @@ Facade: 外观角色
 
 SubSystem:子系统角色
 
+#### 桥接模式（Bridge）
+
+​	定义：桥接模式(Bridge Pattern)：将抽象部分与它的实现部分分离，使它们都可以独立地变化。它是一种对象结构型模式
+
+​	模式结构：
+
+桥接模式包含如下角色：
+
+- Abstraction：抽象类
+- RefinedAbstraction：扩充抽象类
+- Implementor：实现类接口
+- ConcreteImplementor：具体实现类
+
 
 
 ## 行为型
