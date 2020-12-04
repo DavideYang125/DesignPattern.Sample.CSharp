@@ -21,7 +21,7 @@ namespace TemplateMethodPattern.BaseSample
 
         public abstract void Method1();
 
-        public abstract void Method2();
+        public abstract void Method2(); 
     }
 
     /// <summary>

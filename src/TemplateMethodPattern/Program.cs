@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using TemplateMethodPattern.BaseSample;
 
 namespace TemplateMethodPattern
