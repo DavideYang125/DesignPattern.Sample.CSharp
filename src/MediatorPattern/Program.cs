@@ -4,6 +4,9 @@ using MediatorPattern.MsgNotify;
 
 namespace MediatorPattern
 {
+    /// <summary>
+    /// 中介者模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

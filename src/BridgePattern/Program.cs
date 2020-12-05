@@ -3,6 +3,9 @@ using BridgePattern.BaseSapmle;
 
 namespace BridgePattern
 {
+    /// <summary>
+    /// 桥接模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

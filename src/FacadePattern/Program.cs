@@ -1,6 +1,9 @@
 ﻿using System;
 using FacadePattern.BaseSample;
 
+/// <summary>
+/// 外观模式
+/// </summary>
 namespace FacadePattern
 {
     class Program

@@ -3,6 +3,9 @@ using ObserverPattern.BaseSample;
 
 namespace ObserverPattern
 {
+    /// <summary>
+    /// 观察者模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

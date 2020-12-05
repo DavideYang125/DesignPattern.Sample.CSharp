@@ -3,6 +3,9 @@ using FlyweightPattern.BaseSample;
 
 namespace FlyweightPattern
 {
+    /// <summary>
+    /// 享元模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

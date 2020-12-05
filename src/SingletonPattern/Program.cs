@@ -3,6 +3,9 @@ using SingletonPattern.Sample;
 
 namespace SingletonPattern
 {
+    /// <summary>
+    /// 单例模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

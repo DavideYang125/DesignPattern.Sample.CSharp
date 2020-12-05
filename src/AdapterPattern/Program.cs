@@ -3,6 +3,9 @@ using AdapterPattern.BaseSample;
 
 namespace AdapterPattern
 {
+    /// <summary>
+    /// 适配器模式
+    /// </summary>
     class Program
     {
         /// <summary>
