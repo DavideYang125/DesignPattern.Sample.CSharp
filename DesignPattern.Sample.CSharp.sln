@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "src\Fly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfRepository", "src\ChainOfRepository\ChainOfRepository.csproj", "{8514801E-24C5-4B90-B6CD-69823A28CD5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistorPattern", "src\VistorPattern\VistorPattern.csproj", "{5256B8B5-B79B-400E-BFDD-10C004AF0886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{8514801E-24C5-4B90-B6CD-69823A28CD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8514801E-24C5-4B90-B6CD-69823A28CD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8514801E-24C5-4B90-B6CD-69823A28CD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5256B8B5-B79B-400E-BFDD-10C004AF0886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5256B8B5-B79B-400E-BFDD-10C004AF0886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5256B8B5-B79B-400E-BFDD-10C004AF0886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5256B8B5-B79B-400E-BFDD-10C004AF0886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{CBE72B42-5858-4D54-A5B6-3C39F71AE2A7} = {A40BB775-58E8-45DB-80ED-47A20E1C51FA}
 		{21E84754-828F-4D30-A6A3-7B9E2D9ACC78} = {1D2AF75E-2E46-4172-A46C-DD9B67C5678C}
 		{8514801E-24C5-4B90-B6CD-69823A28CD5F} = {A40BB775-58E8-45DB-80ED-47A20E1C51FA}
+		{5256B8B5-B79B-400E-BFDD-10C004AF0886} = {A40BB775-58E8-45DB-80ED-47A20E1C51FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {315F2EBA-0A2B-4DA9-B3A6-EECADCBEA03D}
