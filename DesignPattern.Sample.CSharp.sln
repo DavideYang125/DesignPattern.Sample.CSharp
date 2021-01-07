@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VistorPattern", "src\Vistor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "src\MementoPattern\MementoPattern.csproj", "{761B50B7-D4EB-491C-90B1-7385E812C973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "src\CommandPattern\CommandPattern.csproj", "{DC53CF03-20CD-4F0F-AB1C-C27D6E36CCCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "src\CommandPattern\CommandPattern.csproj", "{DC53CF03-20CD-4F0F-AB1C-C27D6E36CCCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "src\BuilderPattern\BuilderPattern.csproj", "{1B84776C-2F16-459D-804B-121860A68748}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{DC53CF03-20CD-4F0F-AB1C-C27D6E36CCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC53CF03-20CD-4F0F-AB1C-C27D6E36CCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC53CF03-20CD-4F0F-AB1C-C27D6E36CCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B84776C-2F16-459D-804B-121860A68748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B84776C-2F16-459D-804B-121860A68748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B84776C-2F16-459D-804B-121860A68748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B84776C-2F16-459D-804B-121860A68748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{5256B8B5-B79B-400E-BFDD-10C004AF0886} = {A40BB775-58E8-45DB-80ED-47A20E1C51FA}
 		{761B50B7-D4EB-491C-90B1-7385E812C973} = {A40BB775-58E8-45DB-80ED-47A20E1C51FA}
 		{DC53CF03-20CD-4F0F-AB1C-C27D6E36CCCE} = {A40BB775-58E8-45DB-80ED-47A20E1C51FA}
+		{1B84776C-2F16-459D-804B-121860A68748} = {4DBA9171-A2AB-4F60-BE83-0DA2EC3E86F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {315F2EBA-0A2B-4DA9-B3A6-EECADCBEA03D}
