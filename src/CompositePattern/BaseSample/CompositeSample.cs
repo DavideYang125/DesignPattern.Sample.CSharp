@@ -50,17 +50,17 @@ namespace CompositePattern.BaseSample
     /// </summary>
     public class Composite : Component
     {
-        private List<Component> chilren = new List<Component>();
+        private List<Component> children = new List<Component>();
 
         public override void Add(Component child)
         {
-            if (child != null) chilren.Add(child);
+            if (child != null) children.Add(child);
         }
 
         public override void Display(int depth = 0)
         {
             Console.WriteLine(new String('-', depth * 2) + Name);
-            chilren.ForEach(x =>
+            children.ForEach(x =>
             {
                 x.Display(depth + 1);
             });
@@ -68,7 +68,7 @@ namespace CompositePattern.BaseSample
 
         public override void Remove(Component child)
         {
-            if (chilren != null) chilren.Remove(child);
+            if (children != null) children.Remove(child);
         }
     }
 }
