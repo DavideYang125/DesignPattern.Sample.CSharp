@@ -3,6 +3,9 @@ using CompositePattern.BaseSample;
 
 namespace CompositePattern
 {
+    /// <summary>
+    /// /组合模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
