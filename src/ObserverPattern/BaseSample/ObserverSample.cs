@@ -36,7 +36,7 @@ namespace ObserverPattern.BaseSample
     }
 
     /// <summary>
-    /// 具体目标
+    /// 具体目标 ，即被观察者
     /// </summary>
     public class ConcreteSubject : Subject
     {
